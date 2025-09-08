@@ -19,7 +19,7 @@ Ways for clients and collaborators to connect
 Frontend: HTML and CSS
 
 # Featured Projects
-1. Jielevate
+1. Jielevate.com
 
 Empowering hub for leadership, business coaching, and personal development. Built a responsive and user-friendly website to maximize engagement.
 
