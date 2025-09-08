@@ -165,8 +165,9 @@ button:hover{
   color: #333;
 }
 /* Projects section */
+/* black background */
 .projects {
-  background: #000; /* black background */
+  background: #000; 
   padding: 60px 20px;
   text-align: center;
 }
@@ -179,12 +180,12 @@ button:hover{
 }
 
 /* Flexbox container for cards */
-.projects {
+.projects-container{
   display: flex;
-  justify-content: space-between; /* left, center, right */
+  justify-content:center 
   align-items: stretch;
   gap: 30px;
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
 
 /* Project card */
