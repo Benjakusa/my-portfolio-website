@@ -4,6 +4,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+font-family: 'Montserrat', sans-serif;
 }
 li, a, button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,12 +25,12 @@ header{
 }
 .logo{
     cursor: pointer;
-    width: 100px;
+    width: auto;
     height: 100px;
     object-fit: contain;
     
 }
-.nav-links{
+.nav-links ul{
     list-style: none;
 }
 .nav-links li{
@@ -38,7 +39,7 @@ header{
 }
 .nav-links li a{
     color: #000;
-       transition:all 0.3s ease 0;
+       transition:all 0.3s ease 0s;
 }
 
 .nav-links li a:hover{
@@ -53,7 +54,7 @@ button {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0;
+    transition: all 0.3s ease 0s;
     
 }
 button:hover{
@@ -75,7 +76,7 @@ button:hover{
    color: #fff;
  }
  .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
   color: white;
  }
@@ -83,7 +84,7 @@ button:hover{
   color: #c8db51 
 }
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 30px;
   color: #ddd;
@@ -119,3 +120,25 @@ button:hover{
   background: #c8db51;
   color: #000;
 }
+/* main content styling */
+.main-contents{
+   height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 20px;
+    align-items: center;
+    padding: 60px 20px;
+    min-height: 100vh; 
+    height: auto;      
+    max-height: none;  
+    }
+.ben{
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
