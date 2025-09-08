@@ -120,25 +120,47 @@ button:hover{
   background: #c8db51;
   color: #000;
 }
-/* main content styling */
-.main-contents{
-   height: 100vh;
-    background: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 0 20px;
-    align-items: center;
-    padding: 60px 20px;
-    min-height: 100vh; 
-    height: auto;      
-    max-height: none;  
-    }
-.ben{
-  width: 300px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
+.main-contents {
+  display: flex;
+  justify-content: center; /* center the whole block */
+  align-items: center;
+  gap: 3rem; /* consistent spacing */
+  padding: 60px 10%;
+  min-height: 100vh;
+  background: #fff;
 }
 
+/* Left column - image */
+.ben {
+  flex: 1; /* take equal space */
+  display: flex;
+  justify-content: center; /* center image inside */
+}
+
+.ben img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Right column - about me text */
+.about-me {
+  flex: 2; /* text takes a bit more space than image */
+  text-align: left;
+}
+
+.about-me h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #c8db51;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #333;
+}
