@@ -43,13 +43,13 @@ header{
 
 .nav-links li a:hover{
     color: rgb(0, 0, 0);
-     background-color: #facc15;
+     background-color: #c8db51;
     padding: 10px 15px;
     border-radius: 6px;
 }
 button {
     padding: 9px 25px;
-    background-color: #facc15;
+    background-color: #c8db51;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -58,11 +58,11 @@ button {
 }
 button:hover{
     background-color: rgb(0, 0, 0);
-    color: #facc15;
+    color: #c8db51;
 }
 /* hero section styling */
 .hero{
-    height: 100vh;
+    height: 80vh;
     background: black;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ button:hover{
   color: white;
  }
  .hero h1 span {
-  color: #facc15; 
+  color: #c8db51 
 }
 .hero p {
   font-size: 1.1rem;
@@ -102,7 +102,7 @@ button:hover{
   transition: all 0.3s ease;
 }
 .btn.primary {
-  background: #facc15; /* golden yellow */
+  background: #c8db51; 
   color: #000;
 }
 .btn.primary:hover {
@@ -110,12 +110,12 @@ button:hover{
 }
 
 .btn.secondary {
-  border: 2px solid #facc15;
-  color: #facc15;
+  border: 2px solid #c8db51;
+  color: #c8db51;
   background: transparent;
 }
 
 .btn.secondary:hover {
-  background: #facc15;
+  background: #c8db51;
   color: #000;
 }
