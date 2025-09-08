@@ -14,7 +14,7 @@ header {
   top: 0;            
   z-index: 999;      
   background-color: #fff; 
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 li, a, button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -137,7 +137,7 @@ button:hover{
   gap: 3rem; /
   padding: 60px 10%;
   min-height: 100vh;
-  background: #fff;
+  background: black;
 }
 
 /* Left column - image */
@@ -153,13 +153,14 @@ button:hover{
   height: auto;
   border-radius: 5%;
   object-fit: cover;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 20px rgba(247, 245, 245, 0.1);
 }
 
 /* Right column - about me text */
 .about-me {
   flex: 2; 
   text-align: left;
+  background: black;
 }
 
 .about-me h1 {
@@ -172,7 +173,8 @@ button:hover{
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
-  color: #333;
+  color: #faf8f8;
+  font-style: 400;
 }
 /* Projects section */
 .projects{
