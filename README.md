@@ -37,7 +37,7 @@ Consultancy for due diligence in the mineral industry. Designed a professional o
 I’m always open to new opportunities, collaborations, and projects!
 
 Email: ben@opendesk.co.ke
-Phone: +254722839617
+Phone: +254722839617.
 
 # License
 
